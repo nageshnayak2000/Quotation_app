@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'iPhoneXRXSMax111.dart';
-import 'iPhoneXRXSMax112.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -29,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: iPhoneXRXSMax112(),
+      home: MyApp(),
     );
   }
 }
